@@ -1,0 +1,2 @@
+# term_x11shared_sudoers_firefox
+term_x11shared_sudoers_firefox Docker image
