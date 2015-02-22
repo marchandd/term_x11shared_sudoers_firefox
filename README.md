@@ -22,7 +22,7 @@ Around 450 Mb
 
 [Part of Project studies](https://github.com/marchandd/docker_index/ "References")
 
-## Command build image usage
+## Build image
 
 ### Command line
 
@@ -45,7 +45,7 @@ If not equal to 1000, try another command:
 
 Due to sudoers privileges, none particularity.
 
-## Command container usage
+## Build container
 
 ### Command line
 
@@ -63,7 +63,9 @@ Due to sudoers privileges, none particularity.
 
 When you access to container firefox is launched automatically.
 
-:computer: firefox (if you have closed firefox windows and you want to reload it)
+But if you have closed firefox windows and you want to reload it:
+
+:computer: firefox
 
 ## Explanations
 
