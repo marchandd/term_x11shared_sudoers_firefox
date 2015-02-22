@@ -26,20 +26,20 @@ Around 450 Mb.
 
 ### Command line
 
-:computer: docker pull marchandd/term_x11shared_sudoers_firefox
+:computer: `docker pull marchandd/term_x11shared_sudoers_firefox`
 
 ### Command line explanation
 
 Make sure your user / group id is 1000.
 Run terminal with your account. Display your ids with this command:
 
-:computer: id -a
+:computer: `id -a`
 
 If not equal to 1000, try another command:
 
-:computer: sudo su
+:computer: `sudo su`
 
-:computer: id -a
+:computer: `id -a`
 
 ### Firewall
 
@@ -49,7 +49,7 @@ Due to sudoers privileges, none particularity.
 
 ### Command line
 
-:computer: docker run -ti -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --name firefox11 marchandd/term_x11shared_sudoers_firefox
+:computer: `docker run -ti -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --name firefox11 marchandd/term_x11shared_sudoers_firefox`
 
 ### Command line explanation
 
@@ -65,7 +65,7 @@ When you access to container firefox is launched automatically.
 
 But if you have closed firefox windows and you want to reload it:
 
-:computer: firefox
+:computer: `firefox`
 
 ## Explanations
 
