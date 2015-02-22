@@ -12,15 +12,15 @@ Very easy method to produce a light GUI containers to access to Firefox into san
 
 ### Image size
 
-Around 450 Mb
+Around 450 Mb.
 
-## References
+### References
 
 [Marchand D. Maintainer](https://github.com/marchandd/ "Maintainer")
 
-[Details](https://github.com/marchandd/term_x11shared_sudoers_firefox/ "Details")
+[Details source](https://github.com/marchandd/term_x11shared_sudoers_firefox/ "Details")
 
-[Part of Project studies](https://github.com/marchandd/docker_index/ "References")
+[Part of project studies](https://github.com/marchandd/docker_index/ "References")
 
 ## Build image
 
@@ -80,6 +80,7 @@ But if you have closed firefox windows and you want to reload it:
 ### Display
 
 Use host drivers to display GUI applications from container.
+Do not use this container with remote access.
 
 ### Risks
 
@@ -88,6 +89,8 @@ Sharing drivers turn sandbox to isolation failure...
 Reserve it to test only in local mode.
  
 ### Test environment host
+
+Local host:
 
 - KUbuntu (14.10)
 - Docker (1.4.1)
