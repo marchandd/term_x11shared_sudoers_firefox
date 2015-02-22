@@ -1,6 +1,6 @@
 # marchandd/term_x11shared_sudoers_firefox
 
-marchandd/term_x11shared_sudoers_firefox [Docker](https://docs.docker.com/ "Docker") image
+marchandd/term_x11shared_sudoers_firefox [Docker:copyright:](https://docs.docker.com/ "Docker") image
 
 ## Description
 
@@ -31,10 +31,14 @@ Around 450 Mb
 ### Command line explanation
 
 Make sure your user / group id is 1000.
-Run terminal with your account. Display your ids with this command :
+Run terminal with your account. Display your ids with this command:
+
 :computer: id -a
-If not equal to 1000, try another command :
+
+If not equal to 1000, try another command:
+
 :computer: sudo su
+
 :computer: id -a
 
 ### Firewall
@@ -58,6 +62,7 @@ Due to sudoers privileges, none particularity.
 ### Alias
 
 When you access to container firefox is launched automatically.
+
 :computer: firefox (if you have closed firefox windows and you want to reload it)
 
 ## Explanations
