@@ -87,10 +87,8 @@ Do not use this container with remote access.
 Make sudoers give dangerous access permissions...
 Sharing drivers turn sandbox to isolation failure...
 Reserve it to test only in local mode.
- 
-### Test environment host
 
-Local host:
+### Linux Host builder and local test
 
 - KUbuntu (14.10)
 - Docker (1.4.1)
