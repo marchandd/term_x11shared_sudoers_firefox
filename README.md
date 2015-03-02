@@ -51,6 +51,8 @@ Due to sudoers privileges, none particularity.
 
 :computer: `docker run -ti -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --name firefox11 marchandd/term_x11shared_sudoers_firefox`
 
+:boom: [Problem appears just now](https://github.com/marchandd/term_x11shared_sudoers_firefox/blob/master/conflicts.md "Conflicts")
+
 ### Command line explanation
 
 - Run in interactive mode.
