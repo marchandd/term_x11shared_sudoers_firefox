@@ -1,4 +1,4 @@
-FROM ubuntu:14.10
+FROM ubuntu
 ENV VE_version="MarchandD_20151117_v01.02"
 # Read under http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/
 RUN apt-get update && apt-get install -y firefox
