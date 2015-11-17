@@ -49,7 +49,7 @@ Due to sudoers privileges, none particularity.
 
 ### Command line
 
-:computer: `docker run -ti -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --name firefox11 marchandd/term_x11shared_sudoers_firefox`
+:computer: `docker run -ti -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --name latest_term_x11shared_sudoers_firefox marchandd/term_x11shared_sudoers_firefox`
 
 :boom: [Problem appears just now](https://github.com/marchandd/term_x11shared_sudoers_firefox/blob/master/conflicts.md "Conflicts")
 
@@ -92,5 +92,5 @@ Reserve it to test only in local mode.
 
 ### Linux Host builder and local test
 
-- KUbuntu (14.10)
-- Docker (1.4.1)
+- KUbuntu (15.10)
+- Docker (1.9.0)

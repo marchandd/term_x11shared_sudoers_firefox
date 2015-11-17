@@ -1,5 +1,5 @@
 FROM ubuntu:14.10
-ENV VE_version="MarchandD_20150228_v01.00"
+ENV VE_version="MarchandD_20151117_v01.02"
 # Read under http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/
 RUN apt-get update && apt-get install -y firefox
 # Local command 'id -a' to display your ids and replace 1000 with your user / group id
